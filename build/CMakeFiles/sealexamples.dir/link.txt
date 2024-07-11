@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sealexamples.dir/experiment.cpp.o CMakeFiles/sealexamples.dir/common_part.cpp.o CMakeFiles/sealexamples.dir/myfunc_add.cpp.o -o bin/sealexamples  /Users/sakashun/seal/lib/libseal-4.0.a 

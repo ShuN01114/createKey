@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/sakashun/Desktop/研究室/createKey/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isystem /Users/sakashun/seal/include/SEAL-4.0 -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/generateKeys.dir/genkey.cpp.o -c /Users/sakashun/Desktop/研究室/createKey/genkey.cpp",
+  "file": "/Users/sakashun/Desktop/研究室/createKey/genkey.cpp",
+  "output": "CMakeFiles/generateKeys.dir/genkey.cpp.o"
+}
+]
