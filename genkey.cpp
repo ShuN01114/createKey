@@ -8,7 +8,7 @@ using namespace seal;
 void generateAndSaveParameters(const char* fname_parms, const char* fname_secret_key, const char* fname_ciphertext) {
     // 暗号化パラメータを設定
     EncryptionParameters parms(scheme_type::ckks);
-    size_t poly_modulus_degree = 32768;
+    size_t poly_modulus_degree = 8192;
     parms.set_poly_modulus_degree(poly_modulus_degree);
     parms.set_coeff_modulus(CoeffModulus::Create(poly_modulus_degree, { 60, 40, 40, 60 }));
 
